@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "Bristol.AI - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Bristol.AI -- Publications."
 sitemap: false
 permalink: /publications/
 ---
