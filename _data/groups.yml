@@ -2,7 +2,8 @@
   acronym: "IAI CDT"
   image: IAIlogo.png
   description: TBD
-  members: Prof Peter Flach and many others
+  members: cspaf,enrsr
+  members2: many others
   link:
     url: https://www.bristol.ac.uk/cdt/interactive-ai/
   core: 1
@@ -13,7 +14,8 @@
   acronym: "MaVi"
   image: logo1.png
   description: TBD
-  members: Dr Zahraa Abdallah, Dr Tilo Burghardt, Prof Dima Damen, Prof Peter Flach, Prof Majid Mirmehdi, Prof Raul Santos Rodriguez, Dr Telmo Silva Filho, Dr Michael Wray
+  members: cspaf,enrsr
+  members2: Dr Zahraa Abdallah, Dr Tilo Burghardt, Prof Dima Damen, Prof Peter Flach, Prof Majid Mirmehdi, Prof Raul Santos Rodriguez, Dr Telmo Silva Filho, Dr Michael Wray
   link:
     url: https://uob-mavi.github.io/
   core: 1

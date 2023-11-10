@@ -10,7 +10,7 @@ permalink: /groups/
 # AI Groups @ Bristol.AI
 
 {% assign number_printed = 0 %}
-{% for group in site.data.grouplist %}
+{% for group in site.data.groups %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if group.core == 1 %}
@@ -24,7 +24,9 @@ permalink: /groups/
   <grpstyle>{{ group.name }} ({{ group.acronym }})</grpstyle>
   <img src="{{ site.url }}{{ site.baseurl }}/images/grouppic/{{ group.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ group.description }}</p>
-  <p><em>{{ group.members }}</em></p>
+  <p>
+  {% assign members_array = group.members | split: ',' %}{% for memberID in members_array %}{% for person in site.data.people %}{% if memberID == person.ID %}[{{ person.name }}]({{ person.web }}), {% endif %}{% endfor %}{% endfor %}{{ group.members2 }}
+  </p>
   <p><strong><a href="{{ group.link.url }}">{{ group.acronym }} website</a></strong></p>
   <p class="text-danger"><strong> {{ group.news1 }}</strong></p>
   <p> {{ group.news2 }}</p>
@@ -50,7 +52,7 @@ permalink: /groups/
 
 ## Associated AI groups
 
-{% for group in site.data.grouplist %}
+{% for group in site.data.groups %}
 {% if group.core == 0 %}
 
   {{ group.title }} <br />
