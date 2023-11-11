@@ -25,7 +25,7 @@ permalink: /groups/
   <img src="{{ site.url }}{{ site.baseurl }}/images/grouppic/{{ group.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ group.description }}</p>
   <p>
-  {% assign members_array = group.members | split: ',' %}{% for memberID in members_array %}{% for person in site.data.people %}{% if memberID == person.ID %}[{{ person.name }}]({{ person.web }}), {% endif %}{% endfor %}{% endfor %}{{ group.members2 }}
+  {% assign members_array = group.members | split: ',' %}{% for memberID in members_array %}{% for person in site.data.people %}{% if memberID == person.ID %}[{{ person.title }} {{ person.first }} {{ person.last }}]({{ person.web }}), {% endif %}{% endfor %}{% endfor %}{{ group.members2 }}
   </p>
   <p><strong><a href="{{ group.link.url }}">{{ group.acronym }} website</a></strong></p>
   <p class="text-danger"><strong> {{ group.news1 }}</strong></p>

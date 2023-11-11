@@ -1,26 +1,32 @@
 - name: "UKRI Centre for Doctoral Training in Interactive AI"
   acronym: "IAI CDT"
   image: IAIlogo.png
-  description: TBD
-  members: cspaf,enrsr
+  description: We train innovators in human-centred AI.
+  members: cspaf,paul,enrsr,oliver,edwin,zahraa,james,nirav,martha,andrewch
   members2: many others
   link:
     url: https://www.bristol.ac.uk/cdt/interactive-ai/
-  core: 1
-  news2: TBD
+  core: 1  
   
+- name: "UKRI AI Centre for Doctoral Training in Practice-Oriented AI"
+  acronym: "PrO-AI CDT"
+  image: logo1.png
+  description: Practice-oriented AI is about bridging the gap between between complex problem domains such as those found in science and research, and AI algorithms and techniques that could be used to solve problems in those domains. 
+  members: cspaf,paul,enrsr,oliver,edwin,zahraa,james,nirav,martha,andrewch,telmo,conor,kenton
+  members2: many others
+  link:
+    url: https://www.bristol.ac.uk/cdt/interactive-ai/
+  core: 1  
   
 - name: "Machine Learning and Computer Vision"
   acronym: "MaVi"
   image: logo1.png
   description: TBD
-  members: cspaf,enrsr
-  members2: Dr Zahraa Abdallah, Dr Tilo Burghardt, Prof Dima Damen, Prof Peter Flach, Prof Majid Mirmehdi, Prof Raul Santos Rodriguez, Dr Telmo Silva Filho, Dr Michael Wray
+  members: dima,majid,cspaf,enrsr,tilo,zahraa,telmo,mike
+  members2: 
   link:
     url: https://uob-mavi.github.io/
-  core: 1
-  news2: TBD
-  
+  core: 1  
   
   
   

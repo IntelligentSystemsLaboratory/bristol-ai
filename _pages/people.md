@@ -19,7 +19,7 @@ permalink: /people/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ person.ID }}.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>[{{ person.name }}](mailto:{{ person.email }}?subject=Bristol.AI)</h4>
+  <h4>[{{ person.title }} {{ person.first }} {{ person.last }}](mailto:{{ person.email }}?subject=Bristol.AI)</h4>
   <p><i>[{{ person.position }}]({{ person.web }})</i></p>
   <p>{{ person.role }}</p>
   {% if person.scholar %}

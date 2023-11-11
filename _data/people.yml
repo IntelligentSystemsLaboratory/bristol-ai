@@ -1,5 +1,7 @@
 - ID: cspaf
-  name: Peter Flach
+  first: Peter
+  last: Flach
+  title: Prof
   position: Professor of Artificial Intelligence
   role: "[Director, UKRI Centre for Doctoral Training in Interactive Artificial Intelligence](https://www.bristol.ac.uk/cdt/interactive-ai/)"
   email: Peter.Flach@bristol.ac.uk
@@ -8,11 +10,140 @@
   orcid: 0000-0001-6857-5810
 
 - ID: enrsr
-  name: Raul Santos-Rodriguez
+  first: Raul
+  last: Santos-Rodriguez
+  title: Prof
   position: Professor of Data Science and Artificial Intelligence
   role: "[Turing AI Fellow: Interactive Annotations in AI](https://www.raulsantosrodriguez.com/#turing)"
   email: enrsr@bristol.ac.uk
   web: https://www.raulsantosrodriguez.com
   scholar: U_ldrLcAAAAJ
 
+- ID: dima
+  first: Dima
+  last: Damen
+  title: Prof
+  position: Professor of Computer Vision
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: majid
+  first: Majid
+  last: Mirmehdi
+  title: Prof
+  position: Professor of Computer Vision
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: tilo
+  first: Tilo
+  last: Burghardt
+  title: Dr
+  position: Senior Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: telmo
+  first: Telmo
+  last: Silva Filho
+  title: Dr
+  position: Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: mike
+  first: Michael
+  last: Wray
+  title: Dr
+  position: Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: zahraa
+  first: Zahraa
+  last: Abdallah
+  title: Dr
+  position: Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: oliver
+  first: Oliver
+  last: Ray
+  title: Dr
+  position: Senior Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: edwin
+  first: Edwin
+  last: Simpson
+  title: Dr
+  position: Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: paul
+  first: Paul
+  last: Marshall
+  title: Dr
+  position: Associate Professor
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: james
+  first: James
+  last: Cussens
+  title: Dr
+  position: Senior Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: zahraa
+  first: Zahraa
+  last: Abdallah
+  title: Dr
+  position: Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: nirav
+  first: Nirav
+  last: Ajmeri
+  title: Dr
+  position: Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: Martha
+  first: Martha
+  last: Lewis
+  title: Dr
+  position: Lecturer
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: andrewch
+  first: Andrew
+  last: Charlesworth
+  title: Prof
+  position: Professor of Law and Technology
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: conor
+  first: Conor
+  last: Houghton
+  title: Dr
+  position: Associate Professor
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
+
+- ID: kenton
+  first: Kenton
+  last: O'Hara
+  title: Prof
+  position: Professor of Human-Computer Interaction
+  email: todo@bristol.ac.uk
+  web: https://www.bristol.ac.uk/
 
