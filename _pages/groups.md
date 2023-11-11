@@ -22,8 +22,8 @@ permalink: /groups/
 <div class="col-sm-6 clearfix">
  <div class="well">
   <grpstyle>{{ group.name }} ({{ group.acronym }})</grpstyle>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/grouppic/{{ group.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ group.description }}</p>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/grouppic/{{ group.GID }}.jpg" class="img-responsive" width="33%" style="float: left" />
+  <p><i>{{ group.description }}<i></p>
   <p>
   {% assign members_array = group.members | split: ',' %}{% for memberID in members_array %}{% for person in site.data.people %}{% if memberID == person.ID %}[{{ person.title }} {{ person.first }} {{ person.last }}]({{ person.web }}), {% endif %}{% endfor %}{% endfor %}{{ group.members2 }}
   </p>

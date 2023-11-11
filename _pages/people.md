@@ -6,10 +6,13 @@ sitemap: false
 permalink: /people/
 ---
 
-# People
+# People @ Bristol.AI
+
+Sorted alphabetically on last name. 
 
 {% assign number_printed = 0 %}
-{% for person in site.data.people %}
+{% assign people_sorted = site.data.people | sort:'last' %}
+{% for person in people_sorted %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
