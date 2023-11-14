@@ -1,7 +1,6 @@
 - GID: IAI
   name: "UKRI Centre for Doctoral Training in Interactive AI"
   acronym: "IAI CDT"
-  image: IAIlogo.png
   description: We train innovators in human-centred AI.
   members: cspaf,paul,enrsr,oliver,edwin,zahraa,james,nirav,martha,andrewch
   members2: plus many PhD supervisors in participating schools.
@@ -12,7 +11,6 @@
 - GID: PrO-AI
   name: "UKRI AI Centre for Doctoral Training in Practice-Oriented AI"
   acronym: "PrO-AI CDT"
-  image: logo1.png
   description: Practice-oriented AI bridges the gap between between complex problem domains such as those found in science and research, and AI algorithms and techniques that could be used to solve problems in those domains. 
   members: cspaf,paul,enrsr,oliver,edwin,zahraa,james,nirav,martha,andrewch,telmo,conor,kenton
   members2: plus many PhD supervisors in participating schools.
@@ -23,7 +21,6 @@
 - GID: MaVi
   name: "Machine Learning and Computer Vision"
   acronym: "MaVi"
-  image: logo1.png
   description: We conduct research on the intersection of image and video processing and learning from data. 
   members: dima,majid,cspaf,enrsr,tilo,zahraa,telmo,mike
   members2: plus many postdocs and PhD students. 
@@ -34,6 +31,7 @@
   
   
   
+# obsolete from here
 
 - name: "Why shot noise does not generally detect pairing in mesoscopic superconducting tunnel junctions"
   image: imageaward_edited.png
