@@ -10,9 +10,8 @@ title: Bristol.AI
 email: Peter.Flach@bristol.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   Bristol.AI website
-baseurl: "/bristol-ai/" # the subpath of your site, e.g. /blog
-domain: "intelligentsystemslaboratory.github.io"
-url: "https://intelligentsystemslaboratory.github.io/bristol-ai/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/bristol-ai" # the subpath of your site, e.g. /blog
+url: "https://intelligentsystemslaboratory.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 include:
   - .htaccess
