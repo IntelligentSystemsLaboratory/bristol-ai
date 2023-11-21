@@ -28,6 +28,28 @@ Sorted alphabetically on last name.
   {% if person.scholar %}
   [Google Scholar](https://scholar.google.com/citations?user={{ person.scholar }})
   {% endif %}
+
+  {% assign member_groups = "" %}
+  {% assign add_comma = false %}
+
+  {% for group in site.data.groups %}
+    {% if group.members contains person.ID or group.members2 contains person.ID %}
+        {% assign member_groups = member_groups | append: '<a href="' | append: group.link.url | append: '">' | append: group.name | append: '</a>' %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign assigned_groups = "" %}
+
+  {% for group in member_groups %} 
+    {% assign assigned_groups = assigned_groups | append: group %}
+    {% assign add_comma = true %}
+  {% endfor %}
+
+  {% if member_groups != "" %}
+  {{ member_groups | replace: '</a><a', '</a>, <a' | append: '.' | markdownify }}
+  {% endif %}
+
+
   {% if person.orcid %}
   [ORCID](https://orcid.org/{{ person.orcid }})
   {% endif %}

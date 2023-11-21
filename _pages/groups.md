@@ -19,15 +19,17 @@ permalink: /groups/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
- <div class="well">
-  <grpstyle>{{ group.name }} ({{ group.acronym }})</grpstyle>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/grouppic/{{ group.GID }}.jpg" class="img-responsive" width="33%" style="float: left" />
+<div class="col-sm-6">
+ <div class="well" style="height: 425px">
+  <grpstyle>{{ group.name }} {% if group.acronym %} ({{ group.acronym }}) {% endif %}</grpstyle>
+
+  <img src="/images/grouppic/{{ group.GID }}.jpg" class="img-responsive" width="33%" style="float: left" />
+
   <p><i>{{ group.description }}<i></p>
   <p>
   {% assign members_array = group.members | split: ',' %}{% for memberID in members_array %}{% for person in site.data.people %}{% if memberID == person.ID %}[{{ person.title }} {{ person.first }} {{ person.last }}]({{ person.web }}), {% endif %}{% endfor %}{% endfor %}{{ group.members2 }}
   </p>
-  <p><strong><a href="{{ group.link.url }}">{{ group.acronym }} website</a></strong></p>
+  <p class="fixed-bottom" style="position: absolute; bottom: 30px; padding: 10px;"><strong><a href="{{ group.link.url }}">{{ group.acronym }} website</a></strong></p>
   <p class="text-danger"><strong> {{ group.news1 }}</strong></p>
   <p> {{ group.news2 }}</p>
  </div>
