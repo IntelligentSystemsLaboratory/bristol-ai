@@ -30,6 +30,7 @@
   
 - GID: collective_dynamics_lab
   name: "Collective Dynamics Lab"
+  acronym: CDL
   description: Researchers study any of the many systems in nature and industry that consist of large numbers of constituent entities that nonlinearly interact with other entities within the system.
   members: ej20262
   members2: plus many postdocs and PhD students. 

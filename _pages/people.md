@@ -25,16 +25,22 @@ Sorted alphabetically on last name.
   <h4>[{{ person.title }} {{ person.first }} {{ person.last }}](mailto:{{ person.email }}?subject=Bristol.AI)</h4>
   <p><i>[{{ person.position }}]({{ person.web }})</i></p>
   <p>{{ person.role }}</p>
+  
+  {% assign pub_links = "" %}
   {% if person.scholar %}
-  [Google Scholar](https://scholar.google.com/citations?user={{ person.scholar }})
+    {% assign pub_links = pub_links | append: '<a href="https://scholar.google.com/citations?user=' | append: person.scholar | append: '">Scholar</a>' %}
   {% endif %}
+  {% if person.orcid %}
+    {% assign pub_links = pub_links | append: '<a href="https://orcid.org/' | append: person.orcid | append: '">ORCID</a>' %}
+  {% endif %}
+  {{ pub_links | replace: '</a><a', '</a> - <a' | markdownify }}
 
-  {% assign member_groups = "" %}
+  {% assign member_groups = "Member of: " %}
   {% assign add_comma = false %}
 
   {% for group in site.data.groups %}
-    {% if group.members contains person.ID or group.members2 contains person.ID %}
-        {% assign member_groups = member_groups | append: '<a href="' | append: group.link.url | append: '">' | append: group.name | append: '</a>' %}
+    {% if group.members contains person.ID %}
+        {% assign member_groups = member_groups | append: '<a href="' | append: group.link.url | append: '">' | append: group.acronym | append: '</a>' %}
     {% endif %}
   {% endfor %}
 
@@ -47,11 +53,6 @@ Sorted alphabetically on last name.
 
   {% if member_groups != "" %}
   {{ member_groups | replace: '</a><a', '</a>, <a' | append: '.' | markdownify }}
-  {% endif %}
-
-
-  {% if person.orcid %}
-  [ORCID](https://orcid.org/{{ person.orcid }})
   {% endif %}
 
 
