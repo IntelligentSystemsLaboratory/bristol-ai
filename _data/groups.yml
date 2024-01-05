@@ -11,11 +11,21 @@
 - GID: PrO-AI
   name: "UKRI AI Centre for Doctoral Training in Practice-Oriented AI"
   acronym: "PrO-AI CDT"
-  description: Practice-oriented AI bridges the gap between between complex problem domains such as those found in science and research, and AI algorithms and techniques that could be used to solve problems in those domains. 
+  description: Bridges the gap between complex domains in science and research, and AI algorithms and techniques solving problems in those domains. 
   members: cspaf,pm17841,enrsr,csxor,es1595,ej20262,uw20605,vf20401,ml0794,lwajc,td15392,cscjh,cskpaoh
   members2: plus many PhD supervisors in participating schools.
   link:
-    url: https://www.bristol.ac.uk/cdt/interactive-ai/
+    url: https://practiceorientedaicdt.github.io/PrO-AI/
+  core: 1  
+  
+- GID: AIL
+  name: "AI and Machine Learning Lab"
+  acronym: "AIL"
+  description: We study fundamental topics in AI and machine learning such as calibrated probabilities and explainability. 
+  members: enrsr,cspaf,csxor,es1595,vf20401,td15392
+  members2: plus many PhD supervisors in participating schools.
+  link:
+    url: https://www.bristol.ac.uk/engineering/research/intelligent-systems/
   core: 1  
   
 - GID: MaVi
@@ -28,32 +38,93 @@
     url: https://uob-mavi.github.io/
   core: 1  
   
-- GID: collective_dynamics_lab
+- GID: CDL
   name: "Collective Dynamics Lab"
   acronym: CDL
   description: Researchers study any of the many systems in nature and industry that consist of large numbers of constituent entities that nonlinearly interact with other entities within the system.
-  members: ej20262
+  members: nb14397,enrew,enjl,enxlg,lm13588,rs1909,sb15704
   members2: plus many postdocs and PhD students. 
   link:
     url: https://www.bristol.ac.uk/engineering/research/collective-dynamics/
   core: 1 
 
+- GID: DSL
+  name: "Data Science Lab"
+  acronym: "DSL"
+  description: Researchers work on ways to gather, wrangle, curate, visualise, analyse, and extract knowledge from the huge amounts of data we now have access to. 
+  members: es1595,ej20262
+  members2: plus many PhD supervisors in participating schools.
+  link:
+    url: https://www.bristol.ac.uk/engineering/research/intelligent-systems/
+  core: 1  
+  
 - GID: CNU
   name: "Computational Neuroscience Unit"
   acronym: CNU
   description: Researchers develop and apply methods from AI, Machine Learning (ML), Data Science, and advanced simulation/modelling techniques to explore and address issues in present-day and future financial systems. ​
-  members: 
+  members: cscjh,jt18607,ei19760,nl13426,vh22709
   members2: plus many postdocs and PhD students. 
   link:
     url: https://bristolcnu.github.io/
   core: 1 
 
-- GID: DSL
-  name: "Data Science Lab"
-  acronym: DSL
-  description:  Researchers work on ways to gather, wrangle, curate, visualise, analyse, and extract knowledge from the huge amounts of data we now have access to. ​
-  members: cspaf,enrsr
+- GID: HPC
+  name: "High Performance Computing"
+  acronym: HPC
+  description:  "Our research focuses on the application of heterogeneous and many-core computing to solve large-scale scientific problems. Related research problems we are addressing include: performance portability across many-core devices; advanced computer architectures and simulation; and fault tolerance software techniques for resiliency at scale."
+  members: csnmish
   members2: plus many postdocs and PhD students. 
   link:
-    url: https://datascience.bris.ac.uk/
+    url: https://www.bristol.ac.uk/engineering/research/hpc/
   core: 1 
+
+- GID: Algo
+  name: "Algorithms and Complexity"
+  acronym: Algo
+  description:  We study various aspects of the theory and practice of algorithms. The goal of our research is both to provide scalable solutions to existing problems and to understand the limits of what is possible.
+  members: 
+  members2: plus many postdocs and PhD students. 
+  link:
+    url: https://www.bristol.ac.uk/engineering/research/theory-algorithms/
+  core: 0
+
+- GID: BIG
+  name: "Bristol Interaction Group"
+  acronym: BIG
+  description:  We study interactions between humans and technology, design novel interfaces and devices, critically examine social and environmental impact, and deploy and evaluate new interaction paradigms in everyday life settings.
+  members: 
+  members2: plus many postdocs and PhD students. 
+  link:
+    url: http://biglab.co.uk
+  core: 0
+
+- GID: Trust
+  name: "Trustworthy Systems Laboratory"
+  acronym: Trust
+  description:  We are active in a broad range of research areas, including energy aware computing, innovative hardware design, test generation and verification & validation. 
+  members: 
+  members2: plus many postdocs and PhD students. 
+  link:
+    url: https://www.bristol.ac.uk/engineering/research/trustworthy-systems-laboratory/
+  core: 0
+
+- GID: Cyber
+  name: "Bristol Cyber Security Group"
+  acronym: Cyber
+  description:  "The group conducts cutting edge research focused on three over-arching but interlinked strands: security of cyber-physical infrastructures, software security and the role of human behaviours in cyber security."
+  members: 
+  members2: plus many postdocs and PhD students. 
+  link:
+    url: https://www.bristol.ac.uk/engineering/research/cyber-security/
+  core: 0
+
+- GID: VI-Lab
+  name: "Visual Information Laboratory"
+  acronym: VI-Lab
+  description:  The University of Bristol’s  Visual Information Laboratory (VI-Lab) exists to undertake innovative, collaborative and interdisciplinary research resulting in world leading technology in the areas of computer vision, image and video communications, content analysis and distributed sensor systems. 
+  members: 
+  members2: plus many postdocs and PhD students. 
+  link:
+    url: https://vilab.blogs.bristol.ac.uk
+  core: 0
+
