@@ -18,7 +18,7 @@ body:
       description: 
       placeholder: ex. Jon
     validations:
-      required: false
+      required: true
   - type: input
     id: last_name
     attributes:
@@ -26,7 +26,7 @@ body:
       description: 
       placeholder: ex. Doe
     validations:
-      required: false
+      required: true
   - type: input
     id: title
     attributes:
@@ -58,7 +58,7 @@ body:
       description: 
       placeholder:
     validations:
-      required: false
+      required: true
   - type: input
     id: web
     attributes:
@@ -72,7 +72,7 @@ body:
     attributes:
       label: Scholar
       description: 
-      placeholder: ex. Doe
+      placeholder: Google Scholar
     validations:
       required: false
   - type: input
@@ -80,6 +80,6 @@ body:
     attributes:
       label: Orcid
       description: 
-      placeholder: ex. Doe
+      placeholder: Orcid ID
     validations:
       required: false
