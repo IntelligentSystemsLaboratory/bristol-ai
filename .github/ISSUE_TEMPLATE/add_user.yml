@@ -1,8 +1,8 @@
 
-name: Add User
-description: File a bug report
+name: Add Person
+description: Add a new person to the people section 
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["enhancement"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
@@ -10,56 +10,76 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to add new information to our site!
   - type: input
-    id: contact
+    id: first_name
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: First Name
+      description: 
+      placeholder: ex. Jon
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: input
+    id: last_name
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Last Name
+      description: 
+      placeholder: ex. Doe
     validations:
-      required: true
-  - type: dropdown
-    id: version
+      required: false
+  - type: input
+    id: title
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: Title
+      description: 
+      placeholder: ex. Doe
     validations:
-      required: true
-  - type: dropdown
-    id: browsers
+      required: false
+  - type: input
+    id: position
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
+      label: Position
+      description: 
+      placeholder: ex. Doe
+    validations:
+      required: false
+  - type: input
+    id: role
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: Role
+      description: 
+      placeholder: ex. Doe
+    validations:
+      required: false
+  - type: input
+    id: email
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Email
+      description: 
+      placeholder: ex. Doe
+    validations:
+      required: false
+  - type: input
+    id: web
+    attributes:
+      label: Web
+      description: 
+      placeholder: ex. Doe
+    validations:
+      required: false
+  - type: input
+    id: scholar
+    attributes:
+      label: Scholar
+      description: 
+      placeholder: ex. Doe
+    validations:
+      required: false
+  - type: input
+    id: orcid
+    attributes:
+      label: Orcid
+      description: 
+      placeholder: ex. Doe
+    validations:
+      required: false
