@@ -1,6 +1,6 @@
 title: Add Person 
 name: Add Person
-description: Add a new person to the people section 
+description: Add a new person to the [people section](https://intelligentsystemslaboratory.github.io/bristol-ai/people/) 
 title: "Add a new member"
 labels: ["enhancement"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -16,7 +16,7 @@ body:
     attributes:
       label: First Name
       description: 
-      placeholder: ex. Jon
+      placeholder: e.g. Jon
     validations:
       required: true
   - type: input
@@ -24,7 +24,7 @@ body:
     attributes:
       label: Last Name
       description: 
-      placeholder: ex. Doe
+      placeholder: e.g. Doe
     validations:
       required: true
   - type: input
@@ -32,7 +32,7 @@ body:
     attributes:
       label: Title
       description: 
-      placeholder: ex. Dr
+      placeholder: e.g. Dr, Prof, ...
     validations:
       required: false
   - type: input
@@ -48,7 +48,7 @@ body:
     attributes:
       label: Role
       description: 
-      placeholder: ex. Director of ...
+      placeholder: e.g. Director of ...
     validations:
       required: false
   - type: input
@@ -63,23 +63,23 @@ body:
     id: web
     attributes:
       label: Web
-      description: 
+      description: URL to your personal website or a webpage with information about you
       placeholder:
     validations:
       required: false
   - type: input
     id: scholar
     attributes:
-      label: Scholar
-      description: 
-      placeholder: Google Scholar
+      label: Google Scholar user ID
+      description: This can be obtained from your Google Scholar URL after the parameter `?user=`
+      placeholder: e.g. o9ggd4sAAAAJ
     validations:
       required: false
   - type: input
     id: orcid
     attributes:
-      label: Orcid
-      description: 
-      placeholder: Orcid ID
+      label: Orcid ID
+      description: This is formed by 16 alphanumeric characters divided into 4 blocks of 4
+      placeholder: e.g. 0000-0001-6857-5810
     validations:
       required: false
