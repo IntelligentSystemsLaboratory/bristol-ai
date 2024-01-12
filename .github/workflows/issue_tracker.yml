@@ -1,0 +1,49 @@
+name: Add Person
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  adicionar-pessoa:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: code checkout
+      uses: actions/checkout@v2
+
+    - name: extract info from form
+      id: extract-info
+      run: |
+        ID=$(jq -r '.inputs[] | select(.id == "ID") | .attributes.value' $GITHUB_EVENT_PATH)
+        first_name=$(jq -r '.inputs[] | select(.id == "first_name") | .attributes.value' $GITHUB_EVENT_PATH)
+        last_name=$(jq -r '.inputs[] | select(.id == "last_name") | .attributes.value' $GITHUB_EVENT_PATH)
+        title=$(jq -r '.inputs[] | select(.id == "title") | .attributes.value' $GITHUB_EVENT_PATH)
+        position=$(jq -r '.inputs[] | select(.id == "position") | .attributes.value' $GITHUB_EVENT_PATH)
+        role=$(jq -r '.inputs[] | select(.id == "role") | .attributes.value' $GITHUB_EVENT_PATH)
+        email=$(jq -r '.inputs[] | select(.id == "email") | .attributes.value' $GITHUB_EVENT_PATH)
+        web=$(jq -r '.inputs[] | select(.id == "web") | .attributes.value' $GITHUB_EVENT_PATH)
+        scholar=$(jq -r '.inputs[] | select(.id == "scholar") | .attributes.value' $GITHUB_EVENT_PATH)
+        orcid=$(jq -r '.inputs[] | select(.id == "orcid") | .attributes.value' $GITHUB_EVENT_PATH)
+
+    - name: update yml
+      run: |
+        echo "people:" >> _data/people.yml
+        echo "  - ID: $ID" >> _data/people.yml
+        echo "    first: $first_name" >> _data/people.yml
+        echo "    last: $last_name" >> _data/people.yml
+        echo "    title: $title" >> _data/people.yml
+        echo "    position: $position" >> _data/people.yml
+        echo "    role: $role" >> _data/people.yml
+        echo "    email: $email" >> _data/people.yml
+        echo "    web: $web" >> _data/people.yml
+        echo "    scholar: $scholar" >> _data/people.yml
+        echo "    orcid: $orcid" >> _data/people.ymll
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git add _data/people.yml
+        git commit -m "Add Person: $first_name $last_name [skip ci]"
+        git push
+      env:
+        REPO_ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
