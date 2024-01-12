@@ -12,6 +12,14 @@ body:
       value: |
         Thanks for taking the time to add new information to our site!
   - type: input
+    id: ID
+    label: ID
+      description: Your University Of Bristol ID
+      placeholder: ex. cspaf
+    validations:
+      required: true
+    attributes: 
+  - type: input
     id: first_name
     attributes:
       label: First Name
