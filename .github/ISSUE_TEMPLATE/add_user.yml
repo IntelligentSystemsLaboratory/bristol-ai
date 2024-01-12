@@ -1,6 +1,6 @@
 title: Add Person 
 name: Add Person
-description: Add a new person to the [people section](https://intelligentsystemslaboratory.github.io/bristol-ai/people/) 
+description: Add a new person to the people section.
 title: "Add a new member"
 labels: ["enhancement"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -16,7 +16,7 @@ body:
     attributes:
       label: ID
       description: Your University of Bristol ID 
-      placeholder: e.g. Jon
+      placeholder: e.g. ab12345
     validations:
       required: true 
   - type: input
