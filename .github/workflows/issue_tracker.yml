@@ -39,7 +39,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.email "daladiersampaio@gmail.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.name "DelmiroDaladier"
           git add "$targetFile"
           git commit -m "Add form information for issue ${{ github.event.issue.number }}"
           git push
