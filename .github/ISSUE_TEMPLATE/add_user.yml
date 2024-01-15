@@ -12,7 +12,7 @@ body:
       value: |
         Thanks for taking the time to add new information to our site!
   - type: input
-    id: id
+    id: ID
     attributes:
       label: ID
       description: Your University of Bristol ID 
