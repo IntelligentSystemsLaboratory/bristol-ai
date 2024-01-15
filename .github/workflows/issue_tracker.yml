@@ -28,12 +28,12 @@ jobs:
           targetFile="_data/output_${issueNumber}.yml"
           
           yamlContent=$(cat <<EOF
-title: "Add Person"
-# Adicione outras informações do formulário aqui
-body: |
-  ${issueBody}
-EOF
-)
+          title: "Add Person"
+          info :"Info"
+          body: |
+            ${issueBody}
+          EOF
+          ) 
           echo "$yamlContent" > "$targetFile"
 
       - name: Commit and push changes
