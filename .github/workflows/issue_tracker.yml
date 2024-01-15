@@ -6,12 +6,22 @@ on:
       - opened
 
 jobs:
-  adicionar-pessoa:
+  add-person:
     runs-on: ubuntu-latest
 
     steps:
     - name: code checkout
       uses: actions/checkout@v2
+
+    - uses: edumserrano/github-issue-forms-parser@v1
+      id: issue-parser
+      with:
+        template-filepath: .github/ISSUE_TEMPLATE/nuget-release.yml
+        issue-form-body:  ${{ needs.workflow-args.outputs.issue-body }}
+
+    - name: Show parsed data JSON
+      run: |
+        Write-Host "${{ steps.issue-parser.outputs.jsonString }}"
 
     - name: extract info from form
       id: extract-info
