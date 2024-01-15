@@ -17,7 +17,7 @@ jobs:
       id: issue-parser
       with:
         template-filepath: .github/ISSUE_TEMPLATE/issue_tracker.yml
-        issue-form-body:  ${{ needs.workflow-args.outputs.issue-body }}
+        issue-form-body:  ${{  github.event.issue.body }}
 
     - name: Show parsed data JSON
       run: |
