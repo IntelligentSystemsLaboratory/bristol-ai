@@ -12,4 +12,21 @@ Thank you for your interest in getting involved with our community! There are va
 
 ###  Include your information on our people page
 
-You can add new information submitting a github issue [here](https://github.com/IntelligentSystemsLaboratory/bristol-ai/issues/new/choose). 
+To include fresh information, please submit a GitHub issue [here](https://github.com/IntelligentSystemsLaboratory/bristol-ai/issues/new/choose). 
+
+### Edit you information
+
+Link for github issue pointing to the edit issue.
+
+### Email
+
+contact@bristol.ac.uk
+
+### Location
+	
+Merchant Venturers Building, the University of Bristol \
+Woodland Road \
+Bristol BS8 1UB \
+United Kingdom - \
+[Maps](https://maps.app.goo.gl/KJWHZJW29hAib31q8") \
+[Directions](https://www.bristol.ac.uk/maps/directions/)
