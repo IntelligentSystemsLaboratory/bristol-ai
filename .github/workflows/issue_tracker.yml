@@ -25,7 +25,7 @@ jobs:
         run: |
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
-          targetFile="_data/output_${issueNumber}.yml"
+          targetFile="_data/output.yml"
           
           yamlContent=$(cat <<EOF
           title: "Add Person"
@@ -40,6 +40,6 @@ jobs:
         run: |
           git config --global user.email "daladiersampaio@gmail.com"
           git config --global user.name "DelmiroDaladier"
-          git add "_data/output_${issueNumber}.yml"
+          git add "_data/output.yml"
           git commit -m "Auto-commit changes"
           git push origin main
