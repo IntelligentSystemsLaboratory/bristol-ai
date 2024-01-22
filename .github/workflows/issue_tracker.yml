@@ -26,10 +26,10 @@ jobs:
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
           targetFile="_data/output.yml"
-          id_value=$(echo "$body" | awk '/### ID/{getline; print}/{getline; print}/' | tr -d '[:space:]')
-          first_name_value=$(echo "$body" | yq eval '.first_name' -)
-          last_name_value=$(echo "$body" | yq eval '.last_name' -)
-          email_value=$(echo "$body" | yq eval '.email' -)
+          id=$(echo "$body" | awk '/### ID/{getline; print}' | tr -d '[:space:]')
+          first_name=$(echo "$body" | awk '/### First Name/{getline; print}' | tr -d '[:space:]')
+          last_name=$(echo "$body" | awk '/### Last Name/{getline; print}' | tr -d '[:space:]')
+          email=$(echo "$body" | awk '/### Email/{getline; print}' | tr -d '[:space:]')
 
           echo "Body: $issueBody"
           echo "ID: $id_value"
@@ -42,7 +42,7 @@ jobs:
           info :"Info"
           body: |
             ${issueBody}
-            ID: ${id_value}
+            ID: ${id}
           EOF
           ) 
           echo "$yamlContent" > "$targetFile"
