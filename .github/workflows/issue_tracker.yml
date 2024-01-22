@@ -25,6 +25,7 @@ jobs:
         run: |
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
+          issueID="${{ github.event.issue.body.ID }}"
           targetFile="_data/output.yml"
           
           yamlContent=$(cat <<EOF
