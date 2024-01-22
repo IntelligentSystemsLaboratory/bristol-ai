@@ -42,4 +42,4 @@ jobs:
           git config --global user.name "DelmiroDaladier"
           git add "_data/output.yml"
           git commit -m "Auto-commit changes"
-          git push origin main
+          git push origin gh-pages
