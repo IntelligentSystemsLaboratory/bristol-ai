@@ -31,7 +31,7 @@ jobs:
           last_name_value=$(echo "$body" | yq eval '.last_name' -)
           email_value=$(echo "$body" | yq eval '.email' -)
 
-          echo "Body: issueBody"
+          echo "Body: $issueBody"
           echo "ID: $id_value"
           echo "First Name: $first_name_value"
           echo "Last Name: $last_name_value"
