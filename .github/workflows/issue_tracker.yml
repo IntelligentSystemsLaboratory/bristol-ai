@@ -24,7 +24,7 @@ jobs:
       - name: Run script to write form information
         run: |
           issueNumber=${{ github.event.issue.number }}
-          issueBody="${{ github.event.issue.body }}"
+          issueBody="${{ github.event.issue.body.ID }}"
           targetFile="_data/output.yml"
           
           yamlContent=$(cat <<EOF
