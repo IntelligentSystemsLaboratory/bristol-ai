@@ -24,16 +24,16 @@ jobs:
       - name: Run script to write form information
         run: |
           issueNumber=${{ github.event.issue.number }}
-          issueBody="${{ github.event.issue.body.ID }}"
+          issueBody="${{ github.event.issue.body }}"
           targetFile="_data/output.yml"
-          id_value=$(echo "$body" | grep -Po '(?<=ID:).*' | tr -d '[:space:]')
+          id_value=$(echo "$issueBody" | grep -Po '(?<=ID:).*' | tr -d '[:space:]')
           
           yamlContent=$(cat <<EOF
           title: "Add Person"
           info :"Info"
           body: |
             ${issueBody}
-            ${id_value}
+            ID: ${id_value}
           EOF
           ) 
           echo "$yamlContent" > "$targetFile"
