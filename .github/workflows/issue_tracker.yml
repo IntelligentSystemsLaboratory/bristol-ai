@@ -32,6 +32,7 @@ jobs:
           title: "Add Person"
           info :"Info"
           body: |
+            ${issueID}
             ${issueBody}
           EOF
           ) 
