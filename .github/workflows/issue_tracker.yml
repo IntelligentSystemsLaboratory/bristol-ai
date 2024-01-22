@@ -26,7 +26,7 @@ jobs:
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
           targetFile="_data/output.yml"
-          id_value=$(echo "$body" | awk '/### ID/{getline; print}/{getline; print}' | tr -d '[:space:]')
+          id_value=$(echo "$body" | awk '/### ID/{getline; print}/{getline; print}/' | tr -d '[:space:]')
           first_name_value=$(echo "$body" | yq eval '.first_name' -)
           last_name_value=$(echo "$body" | yq eval '.last_name' -)
           email_value=$(echo "$body" | yq eval '.email' -)
