@@ -26,8 +26,16 @@ jobs:
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
           targetFile="_data/output.yml"
-          id_value=$(echo "$issueBody" | grep -Po '(?<=ID:).*' | tr -d '[:space:]')
-          
+          id_value=$(echo "$body" | yq eval '.ID' -)
+          first_name_value=$(echo "$body" | yq eval '.first_name' -)
+          last_name_value=$(echo "$body" | yq eval '.last_name' -)
+          email_value=$(echo "$body" | yq eval '.email' -)
+
+          echo "ID: $id_value"
+          echo "First Name: $first_name_value"
+          echo "Last Name: $last_name_value"
+          echo "Email: $email_value"
+
           yamlContent=$(cat <<EOF
           title: "Add Person"
           info :"Info"
