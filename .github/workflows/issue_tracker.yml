@@ -40,6 +40,6 @@ jobs:
         run: |
           git config --global user.email "daladiersampaio@gmail.com"
           git config --global user.name "DelmiroDaladier"
-          git add .
+          git add "_data/output_${issueNumber}.yml"
           git commit -m "Auto-commit changes"
           git push origin main
