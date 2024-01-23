@@ -1,6 +1,6 @@
 ---
 name: Add
-about: Fill the template to add e new person to our People page.
+about: Please, replace the pré-populated values with the desired information.
 title: Add
 labels: ''
 assignees: ''
