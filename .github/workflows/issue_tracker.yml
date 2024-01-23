@@ -26,13 +26,14 @@ jobs:
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
           targetFile="_data/people.yml"
-  
+
+          echo -e "\n" >> "$targetFile"
           echo "${issueBody}" > "$targetFile"
 
       - name: Commit and push changes
         run: |
           git config --global user.email "daladiersampaio@gmail.com"
           git config --global user.name "DelmiroDaladier"
-          git add "_data/output.yml"
+          git add "_data/people.yml"
           git commit -m "Auto-commit changes"
           git push origin gh-pages
