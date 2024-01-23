@@ -28,7 +28,7 @@ jobs:
           targetFile="_data/people.yml"
 
           echo -e "\n" >> "$targetFile"
-          echo "- ${issueBody}" | sed 's/^/  /' >> "$targetFile"
+          echo "- ${issueBody}" | sed '2,$s/^/  /' >> "$targetFile"
 
       - name: Commit and push changes
         run: |
