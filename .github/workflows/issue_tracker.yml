@@ -28,15 +28,10 @@ jobs:
           targetFile="_data/output.yml"
           
           
-          yamlContent=$(cat <<EOF
-          title: "Add Person"
-          info: "Info"
-          body: |
-            ${issueBody}
-          EOF
-          )
-          
-          echo "$yamlContent" > "$targetFile"
+          echo "title: \"Add Person\"" > "$targetFile"
+          echo "info: \"Info\"" >> "$targetFile"
+          echo "body: |" >> "$targetFile"
+          echo "  ${issueBody}" >> "$targetFile"
 
       - name: Commit and push changes
         run: |
