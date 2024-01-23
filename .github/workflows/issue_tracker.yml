@@ -26,11 +26,7 @@ jobs:
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
           targetFile="_data/output.yml"
-          
-          
-          echo "title: \"Add Person\"" > "$targetFile"
-          echo "info: \"Info\"" >> "$targetFile"
-          echo "body: |" >> "$targetFile"
+  
           echo "  ${issueBody}" >> "$targetFile"
 
       - name: Commit and push changes
