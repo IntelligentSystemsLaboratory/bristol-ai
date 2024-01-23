@@ -28,7 +28,7 @@ jobs:
           targetFile="_data/people.yml"
 
           echo -e "\n" >> "$targetFile"
-          echo "${issueBody}" >> "$targetFile"
+          echo "- ${issueBody}" >> "$targetFile"
 
       - name: Commit and push changes
         run: |
