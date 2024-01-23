@@ -1,7 +1,7 @@
 ---
-name: Add Person
+name: Add
 about: Fill the template to add e new person to our People page.
-title: Add Person
+title: Add
 labels: ''
 assignees: ''
 
