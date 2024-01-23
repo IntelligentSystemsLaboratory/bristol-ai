@@ -26,25 +26,16 @@ jobs:
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
           targetFile="_data/output.yml"
-          id=$(echo "$body" | awk '/### ID/{getline; print}' | tr -d '[:space:]')
-          first_name=$(echo "$body" | awk '/### First Name/{getline; print}' | tr -d '[:space:]')
-          last_name=$(echo "$body" | awk '/### Last Name/{getline; print}' | tr -d '[:space:]')
-          email=$(echo "$body" | awk '/### Email/{getline; print}' | tr -d '[:space:]')
-
-          echo "Body: $issueBody"
-          echo "ID: $id_value"
-          echo "First Name: $first_name_value"
-          echo "Last Name: $last_name_value"
-          echo "Email: $email_value"
-
+          
+          
           yamlContent=$(cat <<EOF
           title: "Add Person"
-          info :"Info"
+          info: "Info"
           body: |
             ${issueBody}
-            ID: ${id}
           EOF
-          ) 
+          )
+          
           echo "$yamlContent" > "$targetFile"
 
       - name: Commit and push changes
