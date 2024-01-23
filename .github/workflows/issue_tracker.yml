@@ -38,11 +38,7 @@ jobs:
           echo "Email: $email_value"
 
           yamlContent=$(cat <<EOF
-          title: "Add Person"
-          info :"Info"
-          body: |
-            ${issueBody}
-            ID: ${id}
+          ${issueBody}
           EOF
           ) 
           echo "$yamlContent" > "$targetFile"
