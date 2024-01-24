@@ -12,7 +12,7 @@ first: Peter
 last: Flach
 title: Prof
 position: Professor of Artificial Intelligence
-role: "[Director, UKRI Centre for Doctoral Training in Interactive Artificial Intelligence](https://www.bristol.ac.uk/cdt/interactive-ai/)"
+role: Director, UKRI Centre for Doctoral Training in Interactive Artificial Intelligence
 email: Peter.Flach@bristol.ac.uk
 web: http://people.cs.bris.ac.uk/~flach/
 scholar: o9ggd4sAAAAJ
