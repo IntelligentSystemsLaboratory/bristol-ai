@@ -12,7 +12,7 @@ Thank you for your interest in getting involved with our community! There are va
 
 ###  Include your information on our people page
 
-To include fresh information, please submit a GitHub issue [here](https://github.com/IntelligentSystemsLaboratory/bristol-ai/issues/new/choose). 
+To include fresh information, please fill our [form](https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG58awcCsTeZLsPDs85dXxsdUQ0k5REJKUDRFRzFUVU0wUDNaSERGSFhGVS4u) submit a GitHub issue [here](https://github.com/IntelligentSystemsLaboratory/bristol-ai/issues/new/choose). 
 
 ### Edit you information
 
