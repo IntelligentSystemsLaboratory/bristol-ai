@@ -8,6 +8,8 @@ permalink: /people/
 
 # People @ Bristol.AI
 
+**Disclaimer**: Work in progress. If you have any concerns or want to provide additional information, please follow the *Get Involved* link at the top of this page. 
+
 Sorted alphabetically on last name. 
 
 {% assign number_printed = 0 %}

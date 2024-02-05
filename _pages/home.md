@@ -6,8 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+The University of Bristol is home to many activities related to Artificial Intelligence research and education. 
+The **Bristol.AI** website is being set up to help navigate AI projects and people at Bristol. 
+While eventually it will be outward-facing, for now it is for internal use only. 
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -16,21 +17,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home_carousel/carousel1.jpg" alt="Slide 1" />
-        </div>
-        <div class="item">
+        <div style="height:250px" class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home_carousel/carousel2.jpg" alt="Slide 2" />
         </div>
-        <div class="item">
+        <div style="height:250px" class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home_carousel/carousel3.jpg" alt="Slide 3" />
         </div>
-        <div class="item">
+        <div style="height:250px" class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home_carousel/carousel4.jpg" alt="Slide 4" />
         </div>
     </div>
@@ -45,5 +42,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+**Disclaimer**: This is a work in progress, put together by volunteers help make sense of the many AI activities and opportunities at Bristol, and is not intended to replace or correct information available elsewhere on the University of Bristol website. 
+If you have any concerns or want to provide additional information, please follow the *Get Involved* link at the top of this page. 
