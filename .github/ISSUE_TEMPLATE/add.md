@@ -1,6 +1,6 @@
 ---
-name: Add
-about: Please, replace the pré-populated values with the desired information.
+name: Add a person to the People @ Bristol.AI webpage
+about: Use the YAML key:value format below. Keeping the keys (`ID`, `first`, `last` etc.), replace the pre-populated values with the desired information. All fields are optional except the first three. 
 title: Add
 labels: ''
 assignees: ''
