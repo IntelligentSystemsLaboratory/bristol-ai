@@ -20,8 +20,13 @@ Sorted alphabetically on last name.
 <div class="row">
 {% endif %}
 
+{% assign image_path = "/images/teampic/" | append: person.ID | append: ".jpg" %}
+{% assign placeholder_path = "/images/teampic/person.jpg" %}
+
+
+
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ person.ID }}.jpg" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ person.ID }}.jpg" class="img-responsive team-member-image" width="25%" style="float: left" />
   <h4>[{{ person.title }} {{ person.first }} {{ person.last }}](mailto:{{ person.email }}?subject=Bristol.AI)</h4>
   <p><i>[{{ person.position }}]({{ person.web }})</i></p>
   <p>{{ person.role }}</p>
@@ -83,6 +88,29 @@ Sorted alphabetically on last name.
 </div>
 {% endif %}
 
+<script>
+  window.onload = function () {
+    var images = document.querySelectorAll('.team-member-image');
 
+    images.forEach(function (image) {
+      checkImage(image);
+    });
+
+    function checkImage(image) {
+      if (image.complete && image.naturalWidth === 0) {
+        // Image has already loaded but with an error, replace with the default image
+        image.src = '{{ site.url | append: site.baseurl }}/images/teampic/person.jpg';
+      } else if (!image.complete) {
+        // Image is still loading, wait for the 'load' event
+        image.onload = function () {
+          if (image.naturalWidth === 0) {
+            // Image loaded with an error, replace with the default image
+            image.src = '{{ site.url | append: site.baseurl }}/images/teampic/person.jpg';
+          }
+        };
+      }
+    }
+  };
+</script>
 
 
