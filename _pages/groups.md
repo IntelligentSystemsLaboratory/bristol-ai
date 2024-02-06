@@ -7,9 +7,12 @@ permalink: /groups/
 ---
 
 
-# AI Groups @ Bristol.AI
+# Research Groups @ Bristol.AI
 
-NB. Work in progress, these lists are not yet complete.
+**Disclaimer**: Work in progress. If you have any concerns or want to provide additional information, please follow the *Get Involved* link at the top of this page. 
+
+
+## Core AI groups
 
 > Researchers in these groups publish in core AI conferences and journals. 
 

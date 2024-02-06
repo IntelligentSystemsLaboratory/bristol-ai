@@ -6,27 +6,27 @@ sitemap: false
 permalink: /get_involved/
 ---
 
-# Get Involved
+# Get involved with Bristol.AI
 
-Thank you for your interest in getting involved with our community! There are various ways you can contribute. Here are some ways to get started:
+The **Bristol.AI** website is 
+maintained by volunteers, 
+powered by [Jekyll](https://jekyllrb.com), and 
+hosted on [Github Pages](https://pages.github.com). 
 
-###  Include your information on our people page
+## How to change or add information
 
-To include fresh information, please fill our [form](https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG58awcCsTeZLsPDs85dXxsdUQ0k5REJKUDRFRzFUVU0wUDNaSERGSFhGVS4u) submit a GitHub issue [here](https://github.com/IntelligentSystemsLaboratory/bristol-ai/issues/new/choose). 
+The easiest way to suggest an edit is to [submit a Github issue](https://github.com/IntelligentSystemsLaboratory/bristol-ai/issues/new/choose); you need a Github account for this. 
 
-### Edit you information
+Alternatively, you can propose new information through Microsoft forms using your UoB account. At the moment, the following forms are available: 
 
-Link for github issue pointing to the edit issue.
+- [Add new person to Bristol.AI](https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG58awcCsTeZLsPDs85dXxsdUQ0k5REJKUDRFRzFUVU0wUDNaSERGSFhGVS4u)
 
-### Email
+## How to get involved in maintaining Bristol.AI
 
-contact@bristol.ac.uk
+We can use your help! Contact any of us 
+(or [all of us](mailto:Peter.Flach@bristol.ac.uk,Miquel.PerelloNieto@bristol.ac.uk,Daladier.SampaioNeto@bristol.ac.uk?subject=help with Bristol.AI))
+if you're interested to contribute and you have (or want to learn) basic Github/Jekyll/YAML skills. 
 
-### Location
-	
-Merchant Venturers Building, the University of Bristol \
-Woodland Road \
-Bristol BS8 1UB \
-United Kingdom - \
-[Maps](https://maps.app.goo.gl/KJWHZJW29hAib31q8") \
-[Directions](https://www.bristol.ac.uk/maps/directions/)
+- [Peter Flach](mailto:Peter.Flach@bristol.ac.uk?subject=help with Bristol.AI)
+- [Miquel Perello Nieto](mailto:Miquel.PerelloNieto@bristol.ac.uk?subject=help with Bristol.AI)
+- [Delmiro Daladier Sampaio Neto](mailto:Daladier.SampaioNeto@bristol.ac.uk?subject=help with Bristol.AI)
