@@ -41,6 +41,6 @@ jobs:
         run: |
           git config --global user.email "daladiersampaio@gmail.com"
           git config --global user.name "DelmiroDaladier"
-          git add "_data/people.yml"
+          git add "."
           git commit -m "Auto-commit changes"
           git push origin gh-pages
