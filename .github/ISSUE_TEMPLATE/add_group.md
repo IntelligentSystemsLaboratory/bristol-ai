@@ -1,7 +1,7 @@
 ---
 name: Add a group to the Group @ Bristol.AI webpage
 about: Use the YAML key:value format below. Keeping the keys (`GID`, `name`, `acronym` etc.), replace the pre-populated values with the desired information. All fields are optional except the first three. 
-title: Add YOUR GROUP
+title: ADD YOUR GROUP
 labels: ''
 assignees: ''
 
