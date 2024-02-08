@@ -25,7 +25,16 @@ jobs:
         run: |
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
+          
+          if [[ "${issueBody}" == *"Add"* ]]; then
+            targetFile="_data/people.yml"
+          else [[ "${issueBody}" == *"ADD Group"* ]]; then
+            targetFile="_data/groups.yml"
+          fi
+          
           targetFile="_data/people.yml"
+
+          echo "${issueBody}"
 
           echo -e "\n" >> "$targetFile"
           echo "- ${issueBody}" | sed '2,$s/^/  /' >> "$targetFile"
