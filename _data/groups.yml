@@ -17,6 +17,26 @@
   link:
     url: https://practiceorientedaicdt.github.io/PrO-AI/
   core: 1  
+
+- GID: AI4CI
+  name: "UKRI AI Research Hub: AI for Collective Intelligence"
+  acronym: "AI4CI"
+  description: Connected communities of people, devices, data and software collaboratively sensing and interacting in real-time to achieve positive outcomes at multiple scales.
+  members: sb15704,vf20401
+  members2: plus many postdocs and PhD students. 
+  link:
+    url: https://ai4ci.ac.uk
+  core: 1
+
+- GID: INFORMED-AI
+  name: "UKRI AI Research Hub: Information theory for distributed AI"
+  acronym: "INFORMED-AI"
+  description: The INFORMED-AI hub is developing theoretical foundations and algorithmic approaches for intelligent distributed systems to be effective, resilient and trustworthy in their operations.
+  members: enjl
+  members2: plus many postdocs and PhD students. 
+  link:
+    url: https://www.bristol.ac.uk/news/2024/february-/ai-hubs.html
+  core: 1
   
 - GID: AIL
   name: "AI and Machine Learning Lab"
