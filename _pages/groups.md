@@ -30,7 +30,7 @@ permalink: /groups/
  <div class="well" style="height: 325px">
   <grpstyle>{{ group.name }} {% if group.acronym %} (<a href="{{ group.link.url }}">{{ group.acronym }}</a>) {% endif %}</grpstyle>
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/grouppic/{{ group.GID }}.jpg" class="img-responsive" width="45%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/grouppic/{{ group.GID }}.jpg" class="img-responsive group-image" width="45%" style="float: left" />
 
   <p><i>{{ group.description }}<i></p>
   <p>
@@ -68,3 +68,28 @@ permalink: /groups/
 
 {% endif %}
 {% endfor %}
+
+<script>
+  window.onload = function () {
+    var images = document.querySelectorAll('.group-image');
+
+    images.forEach(function (image) {
+      checkImage(image);
+    });
+
+    function checkImage(image) {
+      if (image.complete && image.naturalWidth === 0) {
+        // Image has already loaded but with an error, replace with the default image
+        image.src = '{{ site.url | append: site.baseurl }}/images/grouppic/group.png';
+      } else if (!image.complete) {
+        // Image is still loading, wait for the 'load' event
+        image.onload = function () {
+          if (image.naturalWidth === 0) {
+            // Image loaded with an error, replace with the default image
+            image.src = '{{ site.url | append: site.baseurl }}/images/teampic/person.jpg';
+          }
+        };
+      }
+    }
+  };
+</script>
