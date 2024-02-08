@@ -26,13 +26,11 @@ jobs:
           issueNumber=${{ github.event.issue.number }}
           issueBody="${{ github.event.issue.body }}"
           
-          if [[ "${issueBody}" == *"Add"* ]]; then
+          if [[ "${issueBody}" == *"Add YOUR NAME"* ]]; then
             targetFile="_data/people.yml"
-          else [[ "${issueBody}" == *"ADD Group"* ]]; then
+          else
             targetFile="_data/groups.yml"
           fi
-          
-          targetFile="_data/people.yml"
 
           echo "${issueBody}"
 
