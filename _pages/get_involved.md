@@ -22,6 +22,8 @@ Alternatively, you can propose new information through Microsoft forms using you
 - [Add new person to Bristol.AI](https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG58awcCsTeZLsPDs85dXxsdUQ0k5REJKUDRFRzFUVU0wUDNaSERGSFhGVS4u)
 - [Add new group to Bristol.AI](https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG58awcCsTeZLsPDs85dXxsdURVhGQVkwSDBPSFVUVVZGMUhIWDlTNFY4OC4u)
 
+> Only do this if you are prepared to help keep the website updated with recent research outputs.
+
 ## How to get involved in maintaining Bristol.AI
 
 We can use your help! Contact any of us 
