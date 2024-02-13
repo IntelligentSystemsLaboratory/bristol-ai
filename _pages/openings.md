@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - Vacancies"
 layout: textlay
-excerpt: "Openings"
 sitemap: false
 permalink: /vacancies
 ---

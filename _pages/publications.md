@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - Publications"
 layout: gridlay
-excerpt: "Bristol.AI -- Publications."
 sitemap: false
 permalink: /publications/
 ---

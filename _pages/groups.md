@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - Groups"
 layout: gridlay
-excerpt: "Bristol.AI -- Groups."
 sitemap: false
 permalink: /groups/
 ---

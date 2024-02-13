@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - AOA"
 layout: textlay
-excerpt: "AOA"
 sitemap: false
 permalink: /aoa.html
 ---

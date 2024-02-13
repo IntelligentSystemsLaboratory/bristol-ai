@@ -1,7 +1,6 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Bristol.AI at the University of Bristol."
 sitemap: false
 permalink: /allnews.html
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - Home"
 layout: homelay
-excerpt: "Bristol.AI at the University of Bristol."
 sitemap: false
 permalink: /
 ---

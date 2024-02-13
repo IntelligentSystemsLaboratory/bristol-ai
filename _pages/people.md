@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - People"
 layout: gridlay
-excerpt: "Bristol.AI: People"
 sitemap: false
 permalink: /people/
 ---

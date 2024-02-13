@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - Get Involved"
 layout: textlay
-excerpt: "Bristol.AI -- Get Involved"
 sitemap: false
 permalink: /get_involved/
 ---

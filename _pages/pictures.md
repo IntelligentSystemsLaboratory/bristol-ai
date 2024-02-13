@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - Pictures"
 layout: piclay
-excerpt: "Bristol.AI -- Pictures"
 permalink: /pictures/
 ---
 
