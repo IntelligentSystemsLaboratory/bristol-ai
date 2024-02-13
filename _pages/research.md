@@ -1,7 +1,6 @@
 ---
 title: "Bristol.AI - Research"
 layout: textlay
-excerpt: "Bristol.AI -- Research"
 sitemap: false
 permalink: /research/
 ---
