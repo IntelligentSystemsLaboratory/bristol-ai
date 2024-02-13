@@ -4,7 +4,6 @@ about: Use the YAML key:value format below. Keeping the keys (`ID`, `first`, `la
 title: Add YOUR NAME
 labels: ''
 assignees: ''
-
 ---
 
 ID:  cspaf
