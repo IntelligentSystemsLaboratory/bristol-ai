@@ -26,6 +26,7 @@
   position: Professor of Computer Vision
   email: csxda@bristol.ac.uk
   web: https://dimadamen.github.io/
+  scholar: OxL9Wn8AAAAJ
 
 - ID: ccmm
   first: Majid
@@ -34,6 +35,7 @@
   position: Professor of Computer Vision
   email: ccmm@bristol.ac.uk
   web: http://people.cs.bris.ac.uk/~majid/
+  scholar: NsW3yAwAAAAJ
 
 - ID: tb2935
   first: Tilo
@@ -42,6 +44,7 @@
   position: Senior Lecturer
   email: tb2935@bristol.ac.uk
   web: http://people.cs.bris.ac.uk/~burghard/
+  scholar: lqM244QAAAAJ
 
 - ID: td15392
   first: Telmo
@@ -50,6 +53,7 @@
   position: Senior Lecturer
   email: td15392@bristol.ac.uk
   web: https://research-information.bris.ac.uk/en/persons/telmo-de-menezes-e-silva-filho
+  scholar: EGO0o8AAAAJ
 
 - ID: mw1760
   first: Michael
@@ -58,6 +62,7 @@
   position: Lecturer
   email: mw1760@bristol.ac.uk
   web: https://mwray.github.io/
+  scholar: gFQcKZMAAAAJ
 
 - ID: ej20262
   first: Zahraa
@@ -66,6 +71,7 @@
   position: Senior Lecturer
   email: ej20262@bristol.ac.uk
   web: https://research-information.bris.ac.uk/en/persons/zahraa-s-abdallah
+  scholar: AIO70GUAAAAJ
 
 - ID: csxor
   first: Oliver
@@ -74,6 +80,7 @@
   position: Senior Lecturer
   email: csxor@bristol.ac.uk
   web: https://research-information.bris.ac.uk/en/persons/oliver-ray
+  scholar: 3vwgzlUAAAAJ
 
 - ID: es1595
   first: Edwin
@@ -82,6 +89,7 @@
   position: Lecturer
   email: es1595@bristol.ac.uk
   web: https://research-information.bris.ac.uk/en/persons/edwin-d-simpson
+  scholar: SJIesOAAAAAJ
 
 - ID: pm17841
   first: Paul
@@ -90,6 +98,7 @@
   position: Associate Professor
   email: pm17841@bristol.ac.uk
   web: https://www.bristol.ac.uk/people/person/Paul-Marshall-36d4dfa7-1ec3-4168-9226-130e47809b65/
+  scholar: 63UaXnIAAAAJ
 
 - ID: uw20605
   first: James
@@ -97,7 +106,8 @@
   title: Dr
   position: Senior Lecturer
   email: uw20605@bristol.ac.uk
-  web: https://research-information.bris.ac.uk/en/persons/james-cussens
+  web: https://jcussens.github.io/
+  scholar: OEFkOR0AAAAJ
 
 - ID: vf20401
   first: Nirav
@@ -133,6 +143,7 @@
   position: Associate Professor
   email: cscjh@bristol.ac.uk
   web: https://conorhoughton.github.io/
+  scholar: VoP4kDQAAAAJ
 
 - ID: cskpaoh
   first: Kenton
@@ -141,6 +152,7 @@
   position: Professor of Human-Computer Interaction
   email: cskpaoh@bristol.ac.uk
   web: https://research-information.bris.ac.uk/en/persons/kenton-ohara
+  scholar: vfZzNC8AAAAJ
 
 - ID: enrew
   first: Eddie
@@ -148,7 +160,7 @@
   title: Prof
   position: Chair in Intelligent Transport Systems
   email: re.wilson@bristol.ac.uk
-  web: https://www.bristol.ac.uk/people/?search=Faculty+of+Engineering
+  web: https://www.bristol.ac.uk/people/person/Eddie-Wilson-efde0d8d-42a5-4174-bc15-e26fd69f8a0e/
 
 - ID: enjl
   first: Jonathan
@@ -156,7 +168,8 @@
   title: Prof
   position: Professor of Artificial Intelligence
   email: j.lawry@bristol.ac.uk
-  web: https://www.bristol.ac.uk/people/?search=Faculty+of+Engineering
+  web: https://jonathanlawry.weebly.com/
+  scholar: ruHs0xMAAAAJ
 
 - ID: enxlg
   first: Luca
@@ -164,7 +177,8 @@
   title: Prof
   position: Professor of Complexity Sciences
   email: Luca.Giuggioli@bristol.ac.uk
-  web: https://www.bristol.ac.uk/people/?search=Faculty+of+Engineering
+  web: https://www.bristol.ac.uk/people/person/Luca-Giuggioli-f32880a5-bf2e-44a2-91a7-98015de86e40/
+  scholar: 7Jta3FsAAAAJ
 
 - ID: lm13588
   first: Lucia
@@ -172,7 +186,8 @@
   title: Dr
   position: Associate Professor in Systems and Synthetic Biology
   email: lucia.marucci@bristol.ac.uk
-  web: https://www.bristol.ac.uk/people/?search=Faculty+of+Engineering
+  web: https://www.bristol.ac.uk/people/person/Lucia-Marucci-8de3a95c-6f5e-4c4a-9850-cba01fd70edd/
+  scholar: ZWEOK48AAAAJ
 
 - ID: nb14397
   first: Nikolai
@@ -180,7 +195,8 @@
   title: Dr
   position: Senior Lecturer
   email: nikolai.bode@bristol.ac.uk
-  web: https://www.bristol.ac.uk/people/?search=Faculty+of+Engineering
+  web: https://seis.bristol.ac.uk/~nb14397/index.html
+  scholar: JdkAYUoAAAAJ
 
 - ID: rs1909
   first: Robert
@@ -205,6 +221,7 @@
   position: Senior Lecturer
   email: laurence.aitchison@bristol.ac.uk
   web: http://www.gatsby.ucl.ac.uk/~laurence/
+  scholar: DF9khKUAAAAJ
 
 - ID: nl13426
   first: Nathan
@@ -213,6 +230,7 @@
   position: Professor of Robotics & AI
   email: n.lepora@bristol.ac.uk
   web: https://lepora.com
+  scholar: fb2WiJgAAAAJ
 
 - ID: vh22709
   first: Sean
@@ -221,6 +239,7 @@
   position: Lecturer
   email: sean.froudist-walsh@bristol.ac.uk
   web: https://www.sfwneuro.com
+  scholar: 1n_2bLsAAAAJ
 
 - ID: sb15704
   first: Seth
@@ -228,7 +247,8 @@
   title: Prof
   position: Toshiba Chair in Data Science and Simulation
   email: seth.bullock@bristol.ac.uk
-  web: https://research-information.bris.ac.uk/en/persons/seth-bullock
+  web: https://seis.bristol.ac.uk/~sb15704/
+  scholar: wsZ5y0gAAAAJ
 
 - ID: csnmish
   first: Simon
@@ -237,7 +257,7 @@
   position: Professor in High-Performance Computing
   email: s.mcintosh-smith@bristol.ac.uk
   web: http://uob-hpc.github.io/SimonMS/
-  
+  scholar: x_NzPLoAAAAJ
 
 
 - ID:  mp15688
